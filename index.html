@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+    <title>My game!</title>
+     <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+    <!-- Bootstrap -->
+     <link rel="stylesheet" type="text/css" href="assets/style.css">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  </head>
+  <body>
+
+                        <!-- Container -->
+
+<div class="container">
+
+      <h1 id="Game">Gems Game</h1>
+
+        <div class="row"> 
+            <div class="col-sm-offset-3 col-sm-6 text-center tron">
+              <h3> Score:</h3>
+          
+              <div id="score">Click Start To Play!
+              </div>
+                <button class="btn btn-primary" id="Reset"> Start / Reset</button>
+            </div>
+        </div>
+                      <!--Timer-->
+        <div class="row">
+            
+            <div class=" col-xs-offset-5 col-xs-2 col-xs-offset-5 timer1 text-center">
+            <h5>Timer</h5>
+
+            <div class="timer">
+              20
+            </div>
+           </div>
+
+        </div>
+
+                  <!-- Alert win or Loss-->
+
+        <div class="row">
+            <div class="col-xs-4 col-xs-offset-4">
+                <div id="alert">
+                </div>
+                
+            </div>  
+            <div class="col-xs-4">
+            </div>
+        </div>
+
+<br>
+
+                      <!-- Number to mach -->
+
+        <div class="row">
+              <div class=" col-xs-offset-1 col-xs-4 text-center counter">
+                  <h4 id="counter4">Match this number</h4>
+                  <div id="randomnumber" class="reset"></div>
+
+              </div> 
+                      <!-- Wins and Losses counter-->
+
+              <div class="col-xs-4 col-xs-offset-2 text-center counter">
+              
+
+
+                  <h4>Wins:</h4>
+
+                  <div class="wins text-center">0
+                  </div>
+
+                  <h4>Losses:</h4>
+        
+                  <div class="losses text-center">0
+                  </div> 
+              </div>
+                <div class="col-xs-1">
+                </div>
+              
+
+      </div>
+
+  <div class="row crystals">
+                            <!-- Diamond -->
+    <div class="col-xs-3 text-center">
+      <p>
+          <img src="images/50daa71863747eaed0c6fc8e7c316c82_aquamarine-png-clipart-blue-gem-clipart_4000-3170.png" height="85px" width="80px">
+          <br>
+          <button class="btn btn-default con">Diamond</button>
+      </p>
+    </div>
+                            <!--Emerald-->
+    <div class="col-xs-3 text-center">
+      <p>
+          <img src="images/images.png" height="85px" width="80px">
+          <br>
+          <button class="btn btn-success con">Emerald</button>
+      </p>
+    </div>
+                            <!--Ruby-->
+    <div class="col-xs-3 text-center">
+      <p> 
+          <img src="images/images (1).png" height="85px" width="80px">
+          <br>
+          
+          <button class="btn btn-danger con">Ruby</button>
+          
+      </p>
+
+    </div>
+                            <!--Saphire-->
+    <div class="col-xs-3 text-center">
+      <p>       
+          <img src="images/751a72be57811946da1892cc6e93948b_jewels-and-gems-clipart-jewel-blue-gem-clipart_600-507.png" height="85px" width="80px">
+          <br>
+          <button class="btn btn-primary blue con">Saphire</button>
+      </p>
+    </div>
+  </div>
+
+ 
+
+                        <!--Game Directions-->
+    <div class="row text-center top">
+            <button class="button">Directions</button>
+      <div class="col-md-12 text-center directions">
+      
+
+      
+
+        <p>You will be given a random number at the start of the game.
+        <br>
+        There are four gems below. By clicking on a gem you will add a specific amount of points to your total score.
+        <br>
+        You win the game by matching your total score to the random number, you lose the game if your total score goes above the random number.
+        <br>
+        The value of each gem is hidden from you until you click on it.
+        <br>
+        Each time the game starts, the game will choose the values of the crystals. 
+        </p>
+
+      </div>
+    </div>
+</div>
+     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <!--<script src="js/bootstrap.min.js"></script>-->
+    <script src="assets/Gems.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,112 @@
+
+#Game {
+	color: white;
+	background-color: orange;
+	text-align: center; 
+	border: 2px solid white;
+}
+
+.counter {
+	background-color: rgba(7,7,7,0.5);
+	height: 150px;
+	border: 2px solid white;
+	color: white;
+	margin-top: 5px;
+	
+		
+
+}
+.crystals {
+	padding-top: 20px;
+}
+
+  img {
+  	padding-bottom: 10px;
+  }
+
+  #score {
+  	font-size: 25px;
+  	padding: 10px;
+  	border: 2px solid white;
+  	background-color: orange;
+  	margin: 10px;
+	border-radius: 10px;
+	
+
+  }
+
+  .container {
+  	background-image: url("http://img13.deviantart.net/1550/i/2011/353/4/2/mobile_game_background_by_disnie-d4jmr8r.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+  }
+  
+#randomnumber{
+	font-size: 40px;
+
+}
+  
+  .defeat {
+  	font-size: 30px;
+  	color:rgb(255,87,51);
+  	text-align: center;
+  	background-color: rgba(255,255,0,0.7);
+	border: 1px solid red;
+	border-radius: 10px;
+  	
+  
+  }
+
+   .victory{
+   	font-size: 30px;
+   	color: green;
+   	text-align: center;
+   	background-color: rgba(255,255,0,0.7);
+	border: 1px solid green;
+	border-radius: 10px;
+    	
+
+   }
+
+.directions {
+	background-color: rgba(7,7,7,0.5);
+	color: white;
+	margin-top: ;
+}
+
+.tron {
+	background-color: rgba(38,200,76,0.5);
+	padding-bottom: 20px;
+	color: white;
+	border: 2px solid white;
+
+}
+.losses {
+	font-size: 20px;
+}
+
+.wins {
+	font-size: 20px;
+	
+}
+#counter4 {
+	padding-top: 20px
+	
+}
+.timer1 {
+	color: green;
+	font-size: 30px;
+	padding: 10px;
+	background-color: rgba(255,255,255,0.7);
+	margin: 10px;
+	border: 2px solid rgba(38,200,76,0.7);
+	border-radius: 10px;
+
+}
+.con {
+	width: 80px;
+}
+
+
+
+
